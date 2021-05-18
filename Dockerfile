@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM tensorflow/tensorflow:latest-jupyter
 COPY startup.sh /
-RUN pip install pyspark mlflow scikit-learn xgboost hyperopt jupyterlab &&\
+RUN pip install pyspark mlflow scikit-learn xgboost hyperopt jupyterlab xeus-python &&\
     chmod +x /startup.sh
 
 # Install OpenJDK-8
