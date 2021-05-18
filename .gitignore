@@ -131,3 +131,5 @@ dmypy.json
 src/artifacts
 src/mlflow.db
 /src/datasets/
+/src/.Trash-0/
+/src/nodesource_setup.sh
