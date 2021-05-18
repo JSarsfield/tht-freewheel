@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+src/artifacts
+src/mlflow.db
+/src/datasets/
